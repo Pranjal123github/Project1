@@ -17,6 +17,7 @@ public class Example {
 		list.add("Collection Freamework");
 		list.add("SQL");
 		list.add("Git");
+		System.out.println(list);
 		return list;
 	}
 
