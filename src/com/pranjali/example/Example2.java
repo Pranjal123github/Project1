@@ -1,21 +1,20 @@
 package com.pranjali.example;
-
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
-public class Example {
-
+public class Example2 {
 	public static void main(String[] args) {
-		Example ex = new Example();
+		Example2 ex = new Example2();
 		List<String> list = ex.listOfTopic();
 		System.out.println(list);
 	}
 
 	public List<String> listOfTopic() {
-		List<String> list = new ArrayList<>();
+		List<String> list = new LinkedList<>();
 		list.add("Core Java");
 		list.add("Collection Freamework");
 		list.add("SQL");
+		list.add("JDBC");
 		list.add("Git");
 		return list;
 	}
