@@ -14,6 +14,7 @@ public class Example2 {
 		list.add("Core Java");
 		list.add("Collection Freamework");
 		list.add("SQL");
+		list.add("Hibernate");
 		list.add("JDBC");
 		list.add("Git");
 		return list;
