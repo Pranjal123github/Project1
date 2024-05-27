@@ -8,8 +8,8 @@ public class Example {
 	public static void main(String[] args) {
 		Example ex = new Example();
 		List<String> list = ex.listOfTopic();
+		List<String> list2=ex.listOfTopic2();
 		System.out.println(list);
-		List<String> list2 = ex.listOfTopic2();
 		System.out.println(list2);
 	}
 
@@ -31,7 +31,13 @@ public class Example {
 	public List<String> listOfTopic2() {
 		List<String> list = new ArrayList<>();
 		list.add("Core Java");
+		list.add("Learning Git");
+		list.add("Spring");
 		System.out.println(list);
+		for(int i=0;i<=10;i++){
+		System.out.println("Welcome To Pranjali's Kindgom");
+		}
+
 		return list;
 	}
 	

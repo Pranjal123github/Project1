@@ -14,10 +14,15 @@ public class Example2 {
 		List<String> list = new LinkedList<>();
 		list.add("Core Java");
 		list.add("Collection Freamework");
+		list.add("JDBC");
+		list.add("Git");
 		list.add("Hibernate");
 		list.add("JDBC");
 		list.add("Git");
 		list.add("Converter");
+		for (String s : list) {
+			System.out.println(list);
+		}
 		return list;
 	}
 
