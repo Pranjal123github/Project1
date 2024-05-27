@@ -13,9 +13,11 @@ public class Example2 {
 		List<String> list = new LinkedList<>();
 		list.add("Core Java");
 		list.add("Collection Freamework");
-		list.add("SQL");
 		list.add("JDBC");
 		list.add("Git");
+		for(String s : list){
+		System.out.println(list);
+		}
 		return list;
 	}
 
