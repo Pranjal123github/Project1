@@ -5,7 +5,7 @@ public class Example3 {
 
 		System.out.println("Welcome To Git...");
 		System.out.println("Writting Message...");
-		System.out.println("Pranjali");
+		System.out.println("Welcome To Git Conflict Resolution");
 
 	}
 }
