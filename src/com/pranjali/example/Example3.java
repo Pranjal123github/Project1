@@ -5,6 +5,8 @@ public class Example3 {
 
 		System.out.println("Welcome To Git...");
 		System.out.println('p'+'r'+'a'+'n'+'j'+'a'+'l'+'i');
+		System.out.println("Welcome To Conflict Resolution...");
+
 	}
 	
 }
