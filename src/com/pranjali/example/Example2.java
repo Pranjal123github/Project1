@@ -1,4 +1,5 @@
 package com.pranjali.example;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -15,8 +16,12 @@ public class Example2 {
 		list.add("Collection Freamework");
 		list.add("JDBC");
 		list.add("Git");
-		for(String s : list){
-		System.out.println(list);
+		list.add("Hibernate");
+		list.add("JDBC");
+		list.add("Git");
+		list.add("Converter");
+		for (String s : list) {
+			System.out.println(list);
 		}
 		return list;
 	}
