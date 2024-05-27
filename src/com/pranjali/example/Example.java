@@ -10,10 +10,7 @@ public class Example {
 		List<String> list = ex.listOfTopic();
 		List<String> list2=ex.listOfTopic2();
 		System.out.println(list);
-<<<<<<< HEAD
-=======
 		List<String> list2 = ex.listOfTopic2();
->>>>>>> task1
 		System.out.println(list2);
 	}
 
@@ -36,6 +33,10 @@ public class Example {
 		List<String> list = new ArrayList<>();
 		list.add("Core Java");
 		System.out.println(list);
+		for(int i=0;i<=10;i++){
+		System.out.println("Welcome To Pranjali's Kindgom");
+		}
+
 		return list;
 	}
 	
