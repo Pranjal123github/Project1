@@ -16,6 +16,7 @@ public class Example {
 		list.add("Core Java");
 		list.add("Collection Freamework");
 		list.add("SQL");
+		list.add("HTML/CSS");
 		list.add("Git");
 		System.out.println(list);
 		return list;
