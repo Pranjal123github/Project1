@@ -15,8 +15,7 @@ public class Example {
 		List<String> list = new ArrayList<>();
 		list.add("Core Java");
 		list.add("Collection Freamework");
-		list.add("SQL");
-		list.add("HTML/CSS");
+		System.out.println("Pranjali");
 		list.add("Git");
 		System.out.println(list);
 		return list;
