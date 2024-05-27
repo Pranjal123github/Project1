@@ -7,5 +7,9 @@ public static void main(String[] args) {
 	System.out.println("Dev-1 Master Changes");
 	System.out.println("Learning Java");
 	System.out.println("Learning Design Patternes");
+	for(int i=0;i<=10;i++){
+	System.out.println("Demo");
+
+}
 }
 }
