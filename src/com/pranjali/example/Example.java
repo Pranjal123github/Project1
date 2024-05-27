@@ -9,6 +9,8 @@ public class Example {
 		Example ex = new Example();
 		List<String> list = ex.listOfTopic();
 		System.out.println(list);
+		List<String> list2 = ex.listOfTopic2();
+		System.out.println(list2);
 	}
 
 	public List<String> listOfTopic() {
@@ -17,11 +19,21 @@ public class Example {
 		list.add("Collection Freamework");
 		System.out.println("Pranjali");
 		list.add("MYSOL");
+		list.add("Hibernate");
+		list.add("Mysql");
 		list.add("Array");
 		list.add("HTML/CSS");
 		list.add("Git");
+		list.add("Converter");
 		System.out.println(list);
 		return list;
 	}
+	public List<String> listOfTopic2() {
+		List<String> list = new ArrayList<>();
+		list.add("Core Java");
+		System.out.println(list);
+		return list;
+	}
+	
 
 }
