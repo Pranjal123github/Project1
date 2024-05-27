@@ -7,5 +7,8 @@ public static void main(String[] args) {
 	System.out.println(" Dev 1-Next Class");
 	System.out.println("Dev 2-Changes");
 	System.out.println("Bhumika");
+	System.out.println("Simran");
+	System.out.println("Maya");
+	
 }
 }
