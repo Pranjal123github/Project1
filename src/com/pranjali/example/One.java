@@ -5,5 +5,7 @@ public class One {
 		System.out.println("Negative");
 		System.out.println("Nine");
 		System.out.println("One");
+		System.out.println("Six");
+		System.out.println("Seven");
 	}
 }
