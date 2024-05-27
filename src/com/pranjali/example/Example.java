@@ -10,10 +10,6 @@ public class Example {
 		List<String> list = ex.listOfTopic();
 		List<String> list2=ex.listOfTopic2();
 		System.out.println(list);
-<<<<<<< HEAD
-=======
-		List<String> list2 = ex.listOfTopic2();
->>>>>>> task1
 		System.out.println(list2);
 	}
 
@@ -35,6 +31,8 @@ public class Example {
 	public List<String> listOfTopic2() {
 		List<String> list = new ArrayList<>();
 		list.add("Core Java");
+		list.add("Learning Git");
+		list.add("Spring");
 		System.out.println(list);
 		return list;
 	}
